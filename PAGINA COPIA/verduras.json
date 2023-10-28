@@ -1,0 +1,56 @@
+{
+  "verduras": [
+    {
+      "nombre": "Zanahoria",
+      "descripcion": "Las zanahorias son ricas en betacarotenos y vitamina A."
+    },
+    {
+      "nombre": "Brócoli",
+      "descripcion": "El brócoli es una excelente fuente de vitamina C y fibra."
+    },
+    {
+      "nombre": "Espinaca",
+      "descripcion": "La espinaca es rica en hierro y antioxidantes."
+    },
+    {
+      "nombre": "Pimiento",
+      "descripcion": "Los pimientos son una fuente de vitamina C y antioxidantes."
+    },
+    {
+      "nombre": "Tomate",
+      "descripcion": "Los tomates son ricos en licopeno y vitamina C."
+    },
+    {
+      "nombre": "Pepino",
+      "descripcion": "Los pepinos son refrescantes y bajos en calorías."
+    },
+    {
+      "nombre": "Cebolla",
+      "descripcion": "Las cebollas aportan sabor a muchas recetas."
+    },
+    {
+      "nombre": "Lechuga",
+      "descripcion": "La lechuga es una base común en ensaladas."
+    },
+    {
+      "nombre": "Calabacín",
+      "descripcion": "El calabacín es versátil en la cocina."
+    },
+    {
+      "nombre": "Champiñones",
+      "descripcion": "Los champiñones son perfectos para guisos y pizzas."
+    },
+    {
+      "nombre": "Puerro",
+      "descripcion": "El puerro es un ingrediente en sopas y guarniciones."
+    },
+    {
+      "nombre": "Col rizada",
+      "descripcion": "La col rizada es rica en nutrientes."
+    }
+  ]
+}
+
+
+
+  
