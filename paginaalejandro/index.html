@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA</title>
+    <!--Carga los estilos CSS-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body class="index-page">
+    <header class="header"> 
+        <!--Menú de Navegacion-->
+        <div class="menu container1">
+            <a href="index.html" class="logo">logo</a>
+            <input type="checkbox" id="menu" name="menu" class="menu-icono">
+            <label for="menu">
+                <img src="../images/menu.png" alt="menu">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="views/productos.html">Productos</a></li>
+                    <li><a href="views/contacto.html">Contacto</a></li>
+                    <li><a href="views/formulario.html">Formulario</a></li>
+                </ul>
+            </nav>
+    
+            <div class="submenu">
+                <img src="../images/car.svg" id="img-carrito" alt="carrito">
+                <div id="carrito">
+                    <div id="lista-carrito" class="carrito-lista"></div>
+                    <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                </div>
+            </div>
+        </div>
+        <!--Fin del Menú de Navegación-->
+    
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>Ofertas</span>
+                <h1>Frutas y Verduras</h1>
+                <p>
+                    Tenemos las mejores frutas y verduras, los mejores sabores en cada una de ellas y al mejor precio. <br>
+                    Por eso hemos diseñado esta frutería online que te permitirá comprar y recibir en tu casa tus pedidos en menos de 24h y en perfecto estado.
+                </p>
+                <a href="contacto.html" class="btn-1">Información</a>
+            </div>
+            <div class="header-img">
+                <img src="../images/rigth.png" alt="Verdura">
+            </div>
+        </div>
+    </header>
+    
+    <section class="information container">
+        <!--Contenido de Información-->
+        <div class="information-content">
+            <div class="information-1">
+                <img src="../images/i1.svg" alt="tienda">
+                <h3>Disponible las 24 horas</h3>
+                <p>
+                    Haz tu pedido cuando quieras
+                </p>
+            </div>
+
+            <div class="information-1">
+                <img src="../images/i2.svg" alt="mediosdepago">
+                <h3>Medios de Pago</h3>
+                <p>
+                   Tarjetas Credito o Débito. <br>
+                   Pago por Bizum <br>
+                   Pago PayPal
+                </p>
+            </div>
+
+            <div class="information-1">
+                <img src="../images/i3.svg" alt="pedidos">
+                <h3>Recibe tu pedido en 24 Horas</h3>
+                <p>
+                    Haz tu pedido antes de las 22:00h <br>
+                    para recibirlo al día siguiente
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="oferts container">
+        <!--Ofertas Inicio-->
+        <div class="ofert-1">
+            <img src="../images/f1.png" alt="oferta1">
+            <h3>Oferta</h3>
+            <p>premium</p>
+        </div>
+
+        <div class="ofert-1">
+            <img src="../images/f2.png" alt="oferta2">
+            <h3>Oferta</h3>
+            <p>premium</p>
+        </div>
+
+        <div class="ofert-1">
+            <img src="../images/f3.png" alt="oferta3">
+            <h3>Oferta</h3>
+            <p>premium</p>
+        </div>
+        <div class="ofert-1">
+            <img src="../images/f4.png" alt="oferta4">
+            <h3>Oferta</h3>
+            <p>premium</p>
+        </div>
+    </section>
+
+
+    <main class="products container" id="lista-1">
+        <h2>Productos Destacados</h2>
+        <!--Lista de los Productos Destacados-->
+        <div class="product-content">
+
+            <div class="product">
+                <img src="../images/pr1.png" alt="Manzana">
+                <div class="product-txt">
+                    <h3>Manzana</h3>
+                    <p class="precio">€15.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="../images/pr2.png" alt="Naranja">
+                <div class="product-txt">
+                    <h3>Naranja</h3>
+                    <p class="precio">€15.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="../images/pr3.png" alt="Arandanos">
+                <div class="product-txt">
+                    <h3>Arandanos</h3>
+                    <p class="precio">€15.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="../images/pr4.png" alt="Moras">
+                <div class="product-txt">
+                    <h3>Moras</h3>
+                    <p class="precio">€15.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="../images/pr5.png" alt="Fresas">
+                <div class="product-txt">
+                    <h3>Fresas</h3>
+                    <p class="precio">€15.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="../images/platano.png" alt="Platano">
+                <div class="product-txt">
+                    <h3>Platano</h3>
+                    <p class="precio">€15.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="../images/pera.png" alt="Pera">
+                <div class="product-txt">
+                    <h3>Pera</h3>
+                    <p class="precio">€15.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="7">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="../images/pr8.png" alt="Espinaca">
+                <div class="product-txt">
+                    <h3>Espinaca</h3>
+                    <p class="precio">€15.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="8">Agregar</a>
+                </div>
+            </div>
+
+        </div>
+
+        <section id="verduras-section">
+            <!--Muestra el Archivo JSON-->
+            <h2>Secretos de las Verduras</h2>
+            <ul id="verduras-lista"></ul>
+          </section>
+          
+
+
+
+    </main>
+
+    <section class="service">
+        <h2 class="nomostrar">Nuestros Servicios</h2>
+    
+        <div class="service-1">
+            <img class="store" src="../images/1.png" alt="imagen1">
+        </div>
+    
+        <div class="service-2">
+            <img class="store" src="../images/2.png" alt="imagen2">
+        </div>
+    
+        <div class="service-3">
+            <img class="store" src="../images/3.png" alt="imagen3">
+        </div>
+    </section>
+    
+    
+
+    <footer class="footer">
+        <!--Pie de Página-->
+        <div class="footer-content container">
+        
+            <div class="link">
+                <h3>Síguenos</h3>
+                <ul class="siguenos">
+                    <li><img src="../images/redessociales.png" alt="Redes sociales"></li>
+                </ul>
+            </div>            
+    
+            <div class="link">
+                <h3>Medios de Pago</h3>
+                <ul class="mediosdepago">
+                    <li><img src="../images/mediosdepago2.png" alt="Medios de pago"></li>
+                </ul>
+            </div>
+            
+    
+            <div class="link">
+                <h3>Contáctanos</h3>
+                <ul class="contactanos">
+                    <li><img src="../images/Footercontacto.png" alt="Contacto"></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            
+    
+    
+    
+        </div>
+    
+    </footer>
+
+
+
+    <!--Enlace con el archivo JS-->
+    <script src="../js/script.js"></script>
+</body>
+</html>

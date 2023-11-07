@@ -113,7 +113,7 @@ function calcularPresupuesto() {
 
 
 
-fetch("verduras.json")
+fetch("views/verduras.json")
   .then(response => {
     if (!response.ok) {
       throw new Error("Error en la solicitud");

@@ -32,6 +32,13 @@ body{
     color: black; 
 }
 
+.navbar-container {
+    position: fixed;  
+    top: 0;          
+    width: 100%;     
+    z-index: 100;    
+}
+
 
 .index-page .navbar a[href="index.html"],
 .index-page .navbar a[href="./"] {
@@ -76,20 +83,26 @@ img{
 }
 
 .menu{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 100;  
+    background-color: #f7efd8;
+    
+    
 }
 
 .logo{
-    color: #8dc84b;
+    color: #8dc84b ;
     font-size: 25px;
     font-weight: 800;
     text-transform: uppercase;
+    margin-left: 200px;
+    text-align: center;
 }
 
 .menu .navbar ul li {
@@ -104,8 +117,8 @@ img{
     color: #333128;
     display: block;
     font-weight: 600;
+    margin-right: 50px;
 }
-
 
 #menu{
     display: none;
@@ -124,6 +137,7 @@ img{
 
 .submenu{
     position: relative;
+    margin-right: 150px;
 }
 
 
@@ -689,16 +703,15 @@ input{
 
 }
 
-@media(max-width:991px) {
-
-
-    .menu{
+@media (max-width: 991px) {
+    .menu {
         padding: 30px;
-
     }
-    .menu label{
+
+    .menu label {
         display: initial;
     }
+
     .menu .navbar {
         position: absolute;
         top: 100%;
@@ -706,14 +719,22 @@ input{
         right: 0;
         background-color: #303030;
         display: none;
-
     }
-    .menu .navbar ul li{
+
+    .menu .navbar ul li {
         width: 100%;
     }
-    .menu .navbar ul li a{
+
+    .menu .navbar ul li a {
         color: #FFFFFF;
     }
+
+
+    .menu input:checked + label + .navbar {
+        display: block;
+    }
+
+
     .logo{
         display: none;
     }
@@ -724,6 +745,10 @@ input{
     .submenu:hover #carrito{
         min-width: 340px;
     }
+    .submenu{
+        margin-right: 1px;
+    }
+   
     .header{
         min-width: 0vh;
         padding: 100px 30px;
